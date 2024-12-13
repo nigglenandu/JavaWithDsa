@@ -16,6 +16,8 @@ public class Array {
 
 //          replacing new name
             names[2] = "Harry";
-            System.out.println(names[2]);
+            System.out.println("name replace: " + names[2]);
+
+            System.out.println("length: " + names.length);
         }
 }
