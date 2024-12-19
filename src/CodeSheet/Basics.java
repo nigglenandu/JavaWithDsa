@@ -1,4 +1,4 @@
-package Execrises;
+package CodeSheet;
 
 public class Basics {
     public static void main(String[] args) {

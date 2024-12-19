@@ -1,4 +1,4 @@
-package Execrises;
+package CodeSheet;
 
 import java.util.Scanner;
 
