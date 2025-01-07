@@ -1,5 +1,9 @@
-package javaclass;
-import java.util.*;
+package CodeSheet;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
 public class Hashmap {
     public static void main(String[] args){
         //country(key), populations(value)

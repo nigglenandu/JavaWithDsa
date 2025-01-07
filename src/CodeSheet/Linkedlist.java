@@ -1,4 +1,4 @@
-package javaclass;
+package CodeSheet;
 public class Linkedlist {
     Node head;
     private int size;
