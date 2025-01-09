@@ -1,4 +1,7 @@
-import java.util.*;
+package Assignment.FlowOfProgram;
+
+import java.util.HashMap;
+
 public class HashmapQue1 {
     public static void majorityElement(int nums[]) {
         HashMap<Integer, Integer> map = new HashMap<>();
