@@ -1,4 +1,4 @@
-git package Assignment.FlowOfProgram;
+package Assignment.FlowOfProgram;
 
 import java.util.HashSet;
 
