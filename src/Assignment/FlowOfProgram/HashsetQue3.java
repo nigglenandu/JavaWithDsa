@@ -1,4 +1,7 @@
-import java.util.*;
+package Assignment.FlowOfProgram;
+
+import java.util.HashSet;
+
 public class HashsetQue3 {
     public static int intersection(int arr1[], int arr2[]){
         HashSet<Integer> set = new HashSet<>();
