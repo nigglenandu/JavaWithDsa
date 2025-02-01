@@ -18,6 +18,7 @@ public class LeapYearOrNot {
             } else {
                 System.out.println(days + " is not leap year.");
             }
+            System.out.println(days + " is leap year.");
         } else {
             System.out.println(days + " is not leap year.");
         }
