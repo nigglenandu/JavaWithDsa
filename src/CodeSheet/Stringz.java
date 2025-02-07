@@ -1,4 +1,4 @@
-package mynote;
+package CodeSheet;
 
 import java.util.Arrays;
 

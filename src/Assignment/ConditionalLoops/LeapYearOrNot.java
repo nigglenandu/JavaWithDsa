@@ -1,4 +1,4 @@
-package Assignment.FlowOfProgram;
+package Assignment.ConditionalLoops;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package javaProject.musicPlayer;
+package Projects.musicPlayer;
 import java.util.*;
 public class Main {
     private static ArrayList<Album> albums = new ArrayList<>();
