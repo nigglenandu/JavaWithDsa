@@ -2,6 +2,8 @@ package Assignment.FirstProgram;
 
 import java.util.Scanner;
 
+//Input currency in rupees and output in USD.
+
 public class CurrencyConverter {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
