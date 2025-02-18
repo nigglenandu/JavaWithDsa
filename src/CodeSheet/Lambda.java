@@ -1,7 +1,13 @@
-package CodeSheet.Lambda;
+package CodeSheet;
 
 //A lambda expression in Java is a concise way to represent a method with a single expression,
 // defined as (parameters) -> expression.
+
+interface AdditionLambda {
+    int add(int a, int b);
+}
+
+
 public class Lambda {
     public static void main(String[] args) {
         AdditionLambda additionLambda = (a, b) -> a + b;
