@@ -1,5 +1,7 @@
 package CodeSheet;
 
+// Java is object-oriented programming language.
+
 public class FirstProgram {
     public static void main(String[] args) {
         System.out.println("Hello world");
