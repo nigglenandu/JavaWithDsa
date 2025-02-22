@@ -12,6 +12,15 @@ public class RunningSumOfArray {
                 newArray[i] = newArray[i - 1] + arr[i];
             }
         }
+
+        /*
+        int[] newArray = new int[n + 1];
+        newArray[0] = 0;
+        for (int i = 0; i < n; i++) {
+            newArray[i + 1] = newArray[i] + arr[i];
+        }
+         */
+
         return newArray;
     }
 
@@ -25,3 +34,4 @@ public class RunningSumOfArray {
         }
     }
 }
+
