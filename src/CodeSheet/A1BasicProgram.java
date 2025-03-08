@@ -1,6 +1,6 @@
 package CodeSheet;
 
-public class BasicProgram {
+public class A1BasicProgram {
     public static void main(String[] args){
 
         // This is a single-line comment
