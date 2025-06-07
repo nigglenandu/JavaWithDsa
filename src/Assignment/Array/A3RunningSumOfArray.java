@@ -1,6 +1,6 @@
 package Assignment.Array;
 
-public class RunningSumOfArray {
+public class A3RunningSumOfArray {
 
     static int[] runningSum(int[] arr) {
         int n = arr.length;

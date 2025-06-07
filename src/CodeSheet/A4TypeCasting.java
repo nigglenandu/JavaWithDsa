@@ -1,6 +1,6 @@
 package CodeSheet;
 
-public class A2TypeCasting {
+public class A4TypeCasting {
     public static void main(String[] args) {
 
         // Widening (Implicit) Type Casting: int to float

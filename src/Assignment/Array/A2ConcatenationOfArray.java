@@ -2,7 +2,7 @@ package Assignment.Array;
 
 import java.util.Arrays;
 
-public class ConcatenationOfArray {
+public class A2ConcatenationOfArray {
     public static int[] getConcatenation(int[] nums){
         int n = nums.length;
         int[] ans = new int[2*n];
