@@ -1,23 +1,29 @@
 package CodeSheet;
 
 public class Array {
-        public static void main(String[] args) {
-            String[] names = {"Niggle", "Nandu", "John", "Kurt"};
-            System.out.println(names[0]);
+    public static void main(String[] args) {
 
-            for(int i = 0; i<=3; i++){
-                System.out.println(names[i]);
-            }
+        // Declaring and initializing an array of Strings
+        String[] names = {"Niggle", "Nandu", "John", "Kurt"};
 
-//          for each loop
-            for(String i : names){
-                System.out.println(i);
-            }
+        // Printing the first element of the array
+        System.out.println(names[0]);  // Output: Niggle
 
-//          replacing new name
-            names[2] = "Harry";
-            System.out.println("name replace: " + names[2]);
-
-            System.out.println("length: " + names.length);
+        // Printing all elements using a for loop
+        for(int i = 0; i <= 3; i++){
+            System.out.println(names[i]);  // prints each name one by one
         }
+
+        // Printing all elements using a for-each loop (enhanced for loop)
+        for(String i : names){
+            System.out.println(i);  // easier and cleaner way to loop through array
+        }
+
+        // Replacing an element at index 2 (i.e., "John" becomes "Harry")
+        names[2] = "Harry";
+        System.out.println("name replaced: " + names[2]);  // Output: Harry
+
+        // Printing the total number of elements in the array
+        System.out.println("length: " + names.length);  // Output: 4
+    }
 }

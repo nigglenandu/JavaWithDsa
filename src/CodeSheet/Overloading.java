@@ -7,7 +7,7 @@ package CodeSheet;
 3) Class having more than 1 method have same method name but different parameter.
 4) diff return type if same diff para type if same diff numbers for arguments.
 */
-class Overloading{
+class Overloading {
     static int add(int x, int y){
         System.out.print("1st method = ");
         return x + y;
