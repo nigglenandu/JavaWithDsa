@@ -2,7 +2,7 @@ package CodeSheet;
 
 import java.util.Scanner;
 
-public class A4ScannerCls {
+public class A5ScannerCls {
     public static void main(String[] args){
         Scanner myobj = new Scanner(System.in);
 

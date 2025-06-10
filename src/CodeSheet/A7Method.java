@@ -1,6 +1,6 @@
 package CodeSheet;
 
-public class Method {
+public class A7Method {
 
     public String greeting(){
         return "I do work and return string.";
@@ -19,7 +19,7 @@ public class Method {
     }
     public static void main(String[] args){
 
-        Method method = new Method();
+        A7Method method = new A7Method();
 
         System.out.println(method.greeting());
 
