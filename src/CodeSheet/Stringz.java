@@ -67,5 +67,5 @@ public class Stringz {
 
                 String[] words = greeting.split(", ");
                 System.out.println("Split String: " + Arrays.toString(words));  // ["Hello", "World!"]
-            }
-        }
+    }
+}
