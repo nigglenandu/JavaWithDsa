@@ -2,8 +2,9 @@ package CodeSheet;
 
 public class Switch {
     public static void main(String[] args){
-        int day = 4;
+        int day = 4;   // input day number
 
+        // Using if-else ladder
         if(day == 1){
             System.out.println("sunday");
         } else if(day == 2){
@@ -22,6 +23,7 @@ public class Switch {
             System.out.println("invalid number");
         }
 
+        // Same logic using switch-case (cleaner and easier)
         switch(day){
             case 1 :
                 System.out.println("sunday");
