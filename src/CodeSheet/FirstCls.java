@@ -1,17 +1,24 @@
 package CodeSheet;
 
+// A simple class with two fields (x and y)
 public class FirstCls {
     int x = 5;
     int y = 4;
-
 }
 
-class SecondCls{
-    public static void main(String[] args){
+// Another class with main() method to run the program
+class SecondCls {
+    public static void main(String[] args) {
+        // Create object of FirstCls
         FirstCls firstObj = new FirstCls();
-        System.out.println(firstObj.x + firstObj.y);
 
+        // Access fields (x and y) using object
+        System.out.println(firstObj.x + firstObj.y);  // Output: 9
+
+        // Modify value of x
         firstObj.x = 4;
-        System.out.println(firstObj.x);
+
+        // Print updated value of x
+        System.out.println(firstObj.x);  // Output: 4
     }
 }
