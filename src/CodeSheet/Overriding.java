@@ -32,7 +32,7 @@ class Cat extends Animal {
     }
 }
 
-public class Overriding {
+public class   Overriding {
     public static void main(String[] args) {
         // Reference is of type Animal, object is Dog
         // Runtime polymorphism → Dog's eat() is called
