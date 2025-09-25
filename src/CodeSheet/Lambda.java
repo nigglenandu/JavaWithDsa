@@ -3,17 +3,24 @@ package CodeSheet;
 //A lambda expression in Java is a concise way to represent a method with a single expression,
 // defined as (parameters) -> expression.
 
+
+// Functional interface with one abstract method
 interface AdditionLambda {
     int add(int a, int b);
 }
 
-
 public class Lambda {
     public static void main(String[] args) {
+
+        // Lambda expression: (parameters) -> expression/body
+        // Here (a, b) -> a + b is implementation of add(int a, int b)
         AdditionLambda additionLambda = (a, b) -> a + b;
-        System.out.println("sum: " + additionLambda.add(5, 5));
+
+        // Calling the lambda function
+        System.out.println("sum: " + additionLambda.add(5, 5)); // Output: sum: 10
     }
 }
+
 
 //Lambda expressions can only be used with functional interfaces (interfaces with a single abstract method).
 //They replace anonymous class implementations for such interfaces.
