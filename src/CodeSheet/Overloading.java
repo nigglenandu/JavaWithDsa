@@ -8,28 +8,39 @@ package CodeSheet;
 4) diff return type if same diff para type if same diff numbers for arguments.
 */
 class Overloading {
+    // Method 1: takes 2 int parameters
     static int add(int x, int y){
         System.out.print("1st method = ");
         return x + y;
     }
+
+    // Method 2: takes 3 int parameters
     static int add(int x, int y, int z){
         System.out.print("2nd method = ");
         return x + y + z;
     }
 
+    // Method 3: takes 2 double parameters
     static double add(double x, double y){
         System.out.print("3rd method = ");
         return x + y;
     }
 
     public static void main(String[] args){
+        // Calls method with 2 int parameters
         int result = add(1, 1);
-        System.out.println(result);
+        System.out.println(result);  // 1st method = 2
 
-        System.out.println(add(2.5, 2.5));
+        // Calls method with 2 double parameters
+        System.out.println(add(2.5, 2.5)); // 3rd method = 5.0
+
+        // Note: 3-argument int version not used here
+        // Example: System.out.println(add(1, 2, 3)); → would call 2nd method
+
         System.out.println("hii new feature added");
     }
 }
+
 
 /* Syntax
 return_type method_name(para)
